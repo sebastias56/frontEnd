@@ -2,17 +2,29 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(199, 197, 194);
+}
 h1{
     margin-left: 40%;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 h2{
-    font-size: 4vw;
-    text-shadow: 13px 12px 12px rgb(165, 42, 42);
+    font-size: 5.5em;
+    text-shadow: 13px 12px 12px rgb(102, 100, 100);
 }
-a, a:visited, a:hover{
+a, a:visited{
     text-decoration: none;
-    color: rgb(165, 42, 42);
-    font-size: 3vw;
-    text-shadow: 13px 12px 9px rgba(0, 0, 0, 0.74);
+    color: rgba(102, 9, 9, 0.836);
+    font-size: 3em;
+    text-shadow: 13px 12px 9px rgba(124, 100, 100, 0.74);
+    transition: 0.5s;
+}
+a:hover{
+    font-size: 3.4em;
+}
+.linea{
+    padding: 1em;
+    display: block;
+    background-color: rgb(131, 32, 32);
 }
