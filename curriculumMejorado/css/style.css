@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+header{
+    background-image: url('../img/leather-texture-stylish-black-background-4k-black-leather-black-leather-fabric.jpg');
+    background-attachment: fixed;
+    height: 7em;
+}
+a, a:visited{
+    text-decoration: none;
+    color: #FFF;
+}
+h1, h2{
+    letter-spacing: 0.3em;
+    padding: .3em;
+    color: #4595b4;
+    font-size: 2em;
+}
+h2{
+    display:inline;
+    background-color: rgb(87, 107, 116);
+}
+.imgHeader{
+
+    margin:auto;
+}
+dl{
+    margin-left:25%;
+    margin-right:10%;
+    margin-bottom: 21.9vh;
+}
+dt,dd{
+    text-align: left;
+}
+dt{
+    margin-top: 1.5em;
+    letter-spacing: 0.2em;
+    font-weight: bolder;
+    color: #005677;
+    padding: 0.2em;
+    background-color: #C4C4C4;
+    font-size: 1.3em;
+}
+.primerTitulo{
+    display: list-item;
+    list-style:disc;
+    font-style: italic;
+}
+dd{
+    margin-left: 10%;
+    margin-top: .5em;
+}
+h3{
+    color: white;
+    font-size: 1.8em;
+    margin-left: 1em;
+    display: inline;
+    height: 1.6em;
+}
+.imgFooter{
+    margin-top: 0.8em;
+    margin-left: 1em;
+    display: inline;
+    height: 1.6em;
+}
+footer{
+    padding: 0.4em;
+    margin-bottom: 0;
+    background-color: #005677;
+}
