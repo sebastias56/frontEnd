@@ -11,16 +11,46 @@ nav{
 .img_banner{
     width: 100vw;    
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.imgFront{
+}
 h1{
     margin-top: 1em;
     text-align: center;
     color: #3C2313;
 }
+span{
+    margin-right: 100vw;
+}
 footer{
     background-color: #3C2313;
+}
+header .listaIdioma{
+    justify-content: flex-end;
+    display: flex;
+    color: #FFF;
+    background-color: black;
 }
 .fas{
     display: block;
     text-align: center;
     font-size: 4em;
+}
+
+header nav ol{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    color: #FFF;
+    text-decoration: none;
 }

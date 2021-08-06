@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Descuentos 20%</h3>
+    <header>
+        <h1>Heroes</h1>
+    </header>
+    <main>
+        <form action="index.html">
+            <div class="loginform">
+                <h1 class="h1login">Registro</h1>
+                <input type="text" placeholder="Nombre y Apellido" name="nombreyapellido" required>
+                <input type="email" placeholder="Correo Electrónico" name="email" required>
+                <input type="password" placeholder="Contraseña" name="contraseña" required|>
+                <select name="pais" id="select-pais">
+                    <option value="País" selected disabled>País</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brazil">Brazil</option>
+                </select>
+                <div class="subreset">
+                    <button type="reset" class="btnreset">Resetear</button>
+                    <button type="submit" class="btnsubmit">Entrar</button>
+                </div>
+            </div>
+        </form>
+        <p class="parraforegistrar">¿Ya tenés cuenta?<a href="login.html" class="linkregistrar">Ingresá</a></p>
+    </main>
+    <footer>Todos los derechos reservados a FRONT END 1</footer>
+</body>
+</html>
