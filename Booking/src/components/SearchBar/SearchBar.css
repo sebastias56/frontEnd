@@ -1,0 +1,108 @@
+.search-bar {
+    width: 100%;
+    background-color: var(--quaternary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200%;
+}
+
+#search-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--font-color);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#search-bar-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1% 0;
+    height: 100%;
+    width: 70%;
+}
+
+/* Search button */
+#search-button {
+    background-color: var(--primary);
+    color: var(--font-color);
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 0.5rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    flex: 1 0 20%;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+#search-button:hover {
+    font-size: 18px;
+    height: 48px;
+    margin-top: -8px;
+}
+#search-button:disabled {
+    background-color: var(--secondary);
+    color: var(--font-color);
+}
+
+/*---------  RESPONSIVE ---------*/
+
+/* tablet version */
+@media screen and (max-width: 768px) {
+    
+    #search-title {
+        font-size: 30px;
+        margin: 0 10px;
+        padding-top: 1rem;
+    }
+
+    #search-bar-form {
+        width: calc(100% - 80px);
+    }
+
+    #location-select{
+        width: 254px;
+    }
+}
+
+/* mobile version */
+@media screen and (max-width: 600px) {
+    .search-bar {
+        height: 263px;
+    }
+    
+    #search-title {
+        font-size: 30px;
+    }
+
+    #search-bar-form {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: calc(100% - 20px);
+        margin: 0.5rem 10px 0.5rem 10px;
+    }
+
+    #search-button {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 40px;
+        font-size: 14px;
+    }  
+}
+
+@media (max-width: 360px) {
+    #search-title {
+        font-size: 1.6rem;
+    }
+    #search-bar-form{
+        height: 100%;
+    }
+}

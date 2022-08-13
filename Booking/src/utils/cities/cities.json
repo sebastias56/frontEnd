@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "Name": "San Carlos de Bariloche",
+        "Country": "Argentina"
+    },
+    {
+        "id": "2",
+        "Name": "Buenos Aires",
+        "Country": "Argentina"
+    },
+    {
+        "id": "3",
+        "Name": "Mendoza",
+        "Country": "Argentina"
+    },
+    {
+        "id": "4",
+        "Name": "Córdoba",
+        "Country": "Argentina"
+    }
+]

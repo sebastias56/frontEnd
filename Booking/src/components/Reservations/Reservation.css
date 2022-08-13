@@ -1,0 +1,15 @@
+
+.location-map-reservation {
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+.map-detail-reservation{
+    font-weight: 600;
+    cursor: auto;
+}
+.product-name-reservation{
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 1.9rem;
+}

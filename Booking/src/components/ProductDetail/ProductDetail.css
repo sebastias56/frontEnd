@@ -1,0 +1,555 @@
+
+
+.button-reservation {
+    width: 95%;
+    height: 2.5rem;
+    font-weight: 600;
+    background-color: var(--primary);
+    color: var(--font-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0.6em;
+}
+
+.characteristics {
+    padding: 2rem 4rem;
+    font-weight: 600;
+}
+
+.services {
+    list-style: none;
+    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    grid-gap: 0.625em;
+    grid-auto-rows: 3.75em;
+}
+
+.service-icon-home {
+    margin-right: 1rem;
+    font-size: 2.4rem;
+}
+
+.service-icon {
+    color: var(--primary);
+    font-size: 1.25em;
+    margin-right: 0.375em;
+    display: inline;
+}
+
+.swimmer-icon {
+    color: var(--primary);
+    font-size: 1.25em;
+    transform: scaleX(-1);
+}
+
+.service-icon-home.swimmer-icon {
+    padding-top: 0.313em;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    margin-left: 2.813em;
+}
+
+.services-icons {
+    list-style: none;
+    padding-bottom: 0.313em;
+}
+
+.heart-icon {
+    fill: transparent;
+    font-size: 1.25rem;
+    color: var(--quaternary);
+    stroke: var(--quaternary);
+    stroke-width: 2.5em;
+    width: 1.875em;
+    margin-bottom: 0.25em;
+}
+
+.heart-icon:hover {
+    color: var(--primary);
+    stroke: var(--primary);
+    cursor: pointer;
+}
+
+.isntFavorite {
+    fill: transparent;
+}
+
+.share {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    width: 1.125rem;
+    height: 1.25rem;
+    cursor: pointer;
+    margin: 0 1.25em 0 4rem;
+}
+
+.share:active {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+}
+
+/* Button icon */
+.share-icon {
+    color: var(--quaternary);
+    font-size: 1.563em;
+    width: 1.875em;
+}
+
+.share-icon:hover {
+    color: var(--primary);
+}
+
+
+/* Lodging´s name and type */
+.product-label {
+    width: 100%;
+    background-color: var(--quaternary);
+    display: flex;
+    height: 6rem;
+    padding-left: 2.188em;
+    align-items: center;
+}
+
+.back {
+    width: 2.188em;
+    height: 2.188em;
+    margin-left: auto;
+    padding-right: 4.375em;
+}
+
+.back-icon {
+    color: var(--font-color);
+    font-size: 2.188em;
+}
+
+.back-icon:hover {
+    color: var(--primary);
+}
+
+.category-and-name {
+    color: var(--font-color);
+    padding-left: 1.25em;
+}
+
+.product-category-detail {
+    font-size: 0.875rem;
+    margin-top: 1;
+    font-weight: 600;
+}
+
+.product-name-detail {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.title-admin {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--font-color);
+    padding-left: 1.25em;
+}
+
+/* Product´s details */
+.product-details {
+    width: 100%;
+    display: flex;
+    background-color: var(--font-color);
+    height: 3.5rem;
+    justify-content: space-between;
+}
+.prueba{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1.4em;
+    align-items: center;
+}
+.location-city {
+    font-size: 0.875em;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.map-icon {
+    color: var(--quaternary);
+    font-size: 1.6rem;
+}
+
+.product-address {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 0.313em 0 0.313em 0.625em;
+    font-weight: 900;
+}
+
+.product-location-detail {
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    color: var(--secondary);
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rating-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.5rem 10px 0 0;
+}
+
+.number-rating-detail {
+    display: flex;
+    align-items: center;
+    color: var(--font-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: var(--quaternary);
+    padding: 0.4rem .8rem;
+    border-radius: 10px;
+}
+
+.word-rating-detail {
+    padding-top: 0.2rem;
+    font-weight: 700;
+    color: var(--quaternary);
+}
+.rating-stars div{
+    font-size: 0.875em;
+}
+
+/* Product´s Share/Fav/Gallery */
+.share-fav {
+    background-color: var(--background-card);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Product´s description */
+.section-product-description {
+    background-color: var(--background-card);
+    font-size: 1.4rem;
+    color: var(--secondary);
+    font-weight: 500;
+    padding: 1rem 4rem 0rem 0;
+}
+
+.title-product-detail {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    padding-left: 2.5rem;
+    margin-top: .5em;
+    padding-top: 1.25em;
+}
+
+.product-description-detail {
+    padding: 1.25em 0 1rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Product´s characteristics */
+.section-product-characteristics {
+    background-color: var(--background-card);
+    font-size: 1.25rem;
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.line-separation {
+    border-top: 2px solid var(--primary);
+    height: 0.3rem;
+    margin: 1rem 0;
+}
+
+/* Lodging´s reservation */
+.section-product-reservation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+}
+
+.reservation-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.875em 2.5em;
+}
+
+.start-reservation {
+    background-color: var(--background-card);
+    border-radius: 0.625em;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 9.3rem;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    padding: 0 0.625em;
+}
+
+.text-reservation {
+    color: var(--secondary);
+    text-align: left;
+    padding-left: .6em;
+    max-width: 96%;
+}
+
+/* Lodging´s map */
+.section-product-geolocation {
+    background-color: var(--background-card);
+}
+
+.geolocation {
+    font-size: 1.5;
+    color: var(--secondary);
+    padding: 1rem 4rem;
+    font-weight: 600;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 4rem;
+}
+
+/*---------  RESPONSIVE ---------*/
+/* tablet version */
+@media screen and (max-width: 1000px) {
+    .product-label {
+        justify-content: space-between;
+        padding: 0 1.875em 0 1.375em;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .button-reservation {
+        width: 60%;
+    }
+    /* Lodging´s reservation */
+    .reservation-fields {
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem 4rem;
+        padding: 0;
+    }
+
+    .start-reservation {
+        background-color: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        height: max-content;
+        flex-direction: row;
+        width: 100%;
+        padding: 3rem 0;
+        justify-content: space-between;
+    }
+
+    .text-reservation {
+        text-align: left;
+        padding-left: 0.938em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .back{
+        padding-right: 0px;
+    }
+    /* Product´s characteristics */
+    .characteristics {
+        padding: 2rem 3.5rem 1rem;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 14px;
+    }
+
+    /* Product´s details */
+    .location-city {
+        margin-left: 2.8rem;
+    }
+
+    .number-rating-detail {
+        margin-right: 0.625em;
+    }
+
+    /* Product´s description */
+    .section-product-description {
+        padding-right: 3rem;
+    }
+
+    .title-product-detail {
+        padding-left: 3rem;
+    }
+
+    .product-description-detail {
+        padding-left: 3rem;
+    }
+
+    /* Lodging´s reservation */
+    .reservation-fields {
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem 3rem;
+    }
+
+    .start-reservation {
+        background-color: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        height: max-content;
+        flex-direction: row;
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+    .text-reservation {
+        text-align: left;
+        padding: 0 0.8rem 0 0;
+        width: 100%;
+    }
+
+    /* Lodging´s map */
+    .geolocation {
+        padding-left: 3rem;
+    }
+
+    .map {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-label {
+        box-shadow: 0 3px 5px -2px var(--quaternary);
+        margin-bottom: 0.188em;
+        padding: 0 0.625em;
+    }
+}
+
+/* mobile version */
+@media screen and (max-width: 500px) {
+    .share{
+        margin: 0 1.25em 0 1.25em;
+    }    
+    .button-reservation {
+        width: 100%;
+        margin: 0.625em 0 1.25em;
+    }
+    .product-address{
+        width: 16em;
+    }
+    .share-fav{
+        height: 2.5em;
+        position: absolute;
+        z-index: 10;
+        background: transparent;
+    }
+    .heart-icon{
+        stroke: #fff  ;
+        font-size: 19px;
+        color: transparent;
+    }
+    .share-icon{
+        color: #fff;
+    }
+
+    .characteristics {
+        padding: 1rem 2rem;
+    }
+
+    .service {
+        margin-left: 0px;
+        font-size: 1.25em;
+    }
+    /* Product´s details */
+    .map-icon {
+        font-size: .9rem;
+    }
+
+    .product-location-detail {
+        max-width: 70%;
+    }
+
+    .location-city {
+        margin: 0 .4rem;
+    }
+
+    .number-rating-detail {
+        margin: 0;
+    }
+
+    .rating-stars {
+        width: 100%;
+    }
+
+
+    /* Product´s description */
+    .section-product-description {
+        padding-right: 1rem;
+    }
+
+    .title-product-detail {
+        padding-left: 1rem;
+    }
+
+    .product-description-detail {
+        padding-left: 1rem;
+    }
+
+    /* Lodging´s reservation */
+    .reservation-fields {
+        padding: 2rem 1rem;
+        margin: 0 0.625em;
+    }
+
+    .start-reservation {
+        height: max-content;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+        padding: 1rem 0;
+    }
+
+    .text-reservation {
+        text-align: center;
+        margin-bottom: 1.25em;
+        padding-left: 0;
+    }
+
+    /* Lodging´s map */
+    .geolocation {
+        padding-left: 1rem;
+    }
+
+    .map {
+        padding: 1rem;
+    }
+    .prueba{
+        font-size: 0.8em;
+        margin-right: .4em;
+    }
+}

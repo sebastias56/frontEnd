@@ -1,0 +1,86 @@
+[
+    {
+        "id":"1",
+        "categoria":{"titulo":"Hoteles"},
+        "titulo":"The Star",
+        "politicas":{
+            "casa":["Check-out: 10:00", "No se permiten fiestas", "No fumar"],
+            "salud":["Se aplican las pautas de Distanciamiento social y otras noramas relacionadas con el coronavirus", "detector de humo", "Deposito de seguridad"],
+            "cancelacion":["Agrega las fechas de tu viaje para obtener los detalles de cancelacion de estadia"]},
+        "imagenes":[
+            {"id":"1", "url":"https://www.hotelportonbogota.com.co/cache/cf/14/cf14a02a137d90001ea940bd72667d10.jpg"},
+            {"id":"2", "url":"https://innovalohome.com/wp-content/uploads/2021/08/juego-de-sala-milano.jpg"},
+            {"id":"3", "url":"https://i.blogs.es/8590af/via-tinda-s-project.-imagenes-jordi-canosa.-estilismo-mar-gausachs-bano/450_1000.jpeg"},
+            {"id":"4", "url":"https://static8.depositphotos.com/1363517/842/i/600/depositphotos_8422041-stock-photo-kitchen.jpg"},
+            {"id":"5", "url":"https://www.vitahome.co/wp-content/uploads/2019/12/comedor-bonneti-blanco-p.jpg"}],
+        "caracteristicas":[
+            {"name": "cocina", "id": "1", "iconUrl": "faUtensils"},
+            {"name": "televisor", "id": "2", "iconUrl": "faTv"},
+            {"name": "Aire acondicionado", "id": "3", "iconUrl": "faSnowflake"},
+            {"name": "Apto mascotas", "id": "4", "iconUrl": "faPaw"},
+            {"name": "Estacionamiento gratuito", "id": "5", "iconUrl": "faCar"},
+            {"name": "Pileta", "id": "6", "iconUrl": "faSwim"},
+            {"name": "Wifi", "id": "7", "iconUrl": "faWifi"}  
+        ],
+        "location":{
+            "estimated": "A 940 metros del centro",
+            "address": "KR 52A - CL 34 Sur"
+        },
+        "ciudad":{
+            "provincia":"Bogota",
+            "ciudad": "Colombia",
+            "distanciaAlCentro":"940",
+            "pais": "Colombia"
+        },
+        "descripcion":"Put toy mouse in food bowl run out of litter box at full speed prow?? ew dog you drink from the toilet, yum yum warm milk hotter pls. "
+    },
+    {
+        "img":"https://pix10.agoda.net/hotelImages/412094/-1/46cd7247fc2c442716644b97d77ac5db.jpg?ca=7&ce=1&s=1024x768",
+        "category":"Bread and Breakfast",
+        "title":"Tanaya",
+        "location":"A 940 metros del centro",
+        "description":"Put toy mouse in food bowl run out of litter box at full speed pose purrfectly to show my beauty for when owners are asleep. "
+    },
+    {
+        "img":"https://img.lalr.co/cms/2017/03/15043117/hostales.jpg?size=xl",
+        "category":"Hostels",
+        "title":"Don Pancho",
+        "location":"A 940 metros del centro",
+        "description":"Pee on walls it smells like breakfast meow meow mama. Claw at curtains stretch and yawn nibble on tuna ignore human bite human. "
+    },
+    {
+        "img":"https://t2.uc.ltmcdn.com/es/posts/2/5/3/como_funcionan_los_hoteles_por_horas_17352_orig.jpg",
+        "category":"Hoteles",
+        "title":"Sun",
+        "location":"A 940 metros del centro",
+        "description":"Always hungry munch, munch, chomp, chomp but eat an easter feather as if it were a bird then burp victoriously, but tender. "
+    },
+    {
+        "img":"https://static1.sosiva451.com/82679701/f5a753f8-21e8-4a46-b270-3d0a6f83fefa_u_small.jpg",
+        "category":"Departamentos",
+        "title":"Casa Ataraxia",
+        "location":"A 940 metros del centro",
+        "description":"Hiding behind the couch until lured out by a feathery toy. Plan your travel. Meoooow vommit food and eat it again, purr. "
+    },
+    {
+        "img":"https://media-cdn.tripadvisor.com/media/photo-s/0f/88/74/69/bross-hotel-bed-breakfast.jpg",
+        "category":"Bread and Breafkast",
+        "title":"BROSS",
+        "location":"A 940 metros del centro",
+        "description":"Do si and cillum but ullam. Numquam minima for architecto totam but beatae do. Do fugiat aliquam yet accusantium or ea for. "
+    },
+    {
+        "img":"https://toribioachaval.com/imagenes/proaimg/propiedad/sitio/589/589380.jpg",
+        "category":"Departamentos",
+        "title":"Luxury",
+        "location":"A 940 metros del centro",
+        "description":"Veritatis veritatis, pariatur laudantium magna but veniam. Deserunt cupidatat, proident or velitesse amet or explicabo sit. "
+    },
+    {
+        "img":"https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+        "category":"Hosteles",
+        "title":"Ay Caramba",
+        "location":"A 940 metros del centro",
+        "description":"Ab ullam. Aute eos odit or lorem commodi and suscipit modi. Duis. Inventore ut for consequuntur. Quo velitesse ea or ea. "
+    }
+]

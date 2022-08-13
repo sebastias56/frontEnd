@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "name": "Wifi",
+        "iconoUrl": "faWifi"
+    },
+    {
+        "id": "2",
+        "name": "Pileta",
+        "iconoUrl": "faSwim"
+    },
+    {
+        "id": "3",
+        "name": "Restaurante",
+        "iconoUrl": "faCoffee"
+    },
+    {
+        "id": "4",
+        "name": "Cocina",
+        "iconoUrl": "faUtensils"
+    },
+    {
+        "id": "5",
+        "name": "Aire acondicionado",
+        "iconoUrl": "faSnowflake"
+    },
+    {
+        "id": "6",
+        "name": "Prohibido fumar",
+        "iconoUrl": "faBanSmoking"
+    },
+    {
+        "id": "7",
+        "name": "Bar",
+        "iconoUrl": "faMartiniGlass"
+    },
+    {
+        "id": "8",
+        "name": "Apto mascotas",
+        "iconoUrl": "faPaw"
+    },
+    {
+        "id": "9",
+        "name": "Estacionamiento gratuito",
+        "iconoUrl": "faCar"
+    },
+    {
+        "id": "10",
+        "name": "Asistencia",
+        "iconoUrl": "faConciergeBell"
+    },
+    {
+        "id": "11",
+        "name": "Gym",
+        "iconoUrl": "faDumbbell"
+    },
+    {
+        "id": "12",
+        "name": "Spa",
+        "iconoUrl": "faSpa"
+    },
+    {
+        "id": "13",
+        "name": "Televisor",
+        "iconoUrl": "faTv"
+    }
+]

@@ -1,0 +1,139 @@
+.tituloForm{
+    text-align: center;
+    color: var(--primary);
+    font-size: 24px;
+    padding:10% 0% 2%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.correo, .nombre, .apellido, .passwordConfirm{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.pregunta{
+    font-size: .7em;
+    padding-bottom: 5em;
+    font-weight: 600;
+}
+
+label{
+    font-size: .72em;
+    font-weight: 600;
+}
+
+input{
+    width:448px;
+    height:40px;
+    border-radius: 5px;
+    margin-top: .3em;
+    font-weight: 600;
+    padding-left:10px;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+img{
+    display:flex;
+}
+
+/*---------------borrar el fondo azul que deja el autocompletado---------------------*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+
+/*------------------------------------*/
+
+
+.nom>input, .ape>input{
+    width:218px;
+}
+
+.nombres{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+
+.nom, .ape{
+    display: flex;
+    flex-direction: column;
+}
+.confirmar{
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    border: 0;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:white;
+    clip-path: polygon(100% 0%, 90% 51%, 100% 100%, 10% 100%, 0% 50%, 10% 0);
+    transition: 0.3s;
+}
+.confirmar:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 11% 50%, 0% 0%);
+}
+
+.input-wrapper{
+    position:relative;
+}
+
+.visibilidad{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+	transform: translateY(-50%);
+    height: 15px;
+}
+
+.oculto{
+    display: none;
+}
+
+.errorMessage{
+    color:red;
+    font-size: .84em;
+    font-weight: bold;
+}
+.inputError{
+    background-color :#FFE1E1;
+    border-color: red ;
+    outline: red;
+}
+.inputError:focus{
+    border-color: pur;
+}
+
+@media(max-width: 460px) and (orientation:portrait){
+    input{
+        width: 300px;
+        height:40px;
+    }
+    .nombres{
+        flex-direction: column;
+    }
+
+    .nom>input, .ape>input{
+        width: 300px;
+        height:40px;
+    }
+}

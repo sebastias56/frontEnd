@@ -1,0 +1,166 @@
+.user-data-inputs {
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.section-inputs-container {
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.user-data-inputs-container {
+    padding: 1.5rem 0;
+    background-color: var(--background-card);
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+/*----- Autocomplete disabled inputs -----*/
+.reservation-input-disabled {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    outline: none;
+    font-weight: 600;
+    margin: 8px 0 10px;
+    color: var(--tertiary);  
+    font-size: 0.875rem;  
+}
+
+.data-user-label {
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 0.875rem;
+    width: 100%;
+    margin: 1rem;
+}
+
+.reservation-input {
+    width: 100%;
+    height: 4rem;
+    color: var(--secondary) ;
+    background-color: var(--background-card);
+    border: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    outline: none;
+    font-weight: 600;
+    margin: 8px 0 10px;
+    font-size: 0.875rem;
+}
+
+.section-radio-container {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    width: 70%;
+    height: max-content;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.section-radio-legend {
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.radio-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.radio-button-covid {
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1.4rem;
+    height: 18px;
+    padding-top: 2px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+
+    border: 2px solid #383b58;
+    transition: 0.4s all linear;
+    margin-left: 5px;
+
+    position: relative;
+    top: 1px;
+}
+
+input[type="radio"]:checked {
+    border: 9px solid var(--primary);
+}
+
+input[type="radio"]:hover {
+    background-color: var(--primary);
+}
+
+/*---------  RESPONSIVE ---------*/
+/* widescreen version */
+@media screen and (min-width: 1367px){
+    .user-data-inputs-container {
+        padding: 1.5rem 2rem;
+    }
+
+    .section-radio-container {
+        width: 50%;
+    }
+}
+
+/* tablet version */
+@media screen and (max-width: 999px) {
+    .user-data-inputs {
+        padding-right: 0;
+    }
+    
+    .section-radio-container {
+        margin-top: 10px;
+    }
+}
+
+/* mobile version */
+@media screen and (max-width: 767px) {
+    .section-radio-container {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    .section-radio-legend {
+        font-size: 1.3rem;
+    }
+
+    .section-inputs-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .data-user-label {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .section-inputs-container input {
+        height: 3em;
+    }
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "titulo": "Palacio del Presidente",
+        "imagenes": [
+            {
+                "id": "1",
+                "url": "https://www.hotelportonbogota.com.co/cache/cf/14/cf14a02a137d90001ea940bd72667d10.jpg"
+            },
+            {
+                "id": "2",
+                "url": "https://innovalohome.com/wp-content/uploads/2021/08/juego-de-sala-milano.jpg"
+            },
+            {
+                "id": "3",
+                "url": "https://i.blogs.es/8590af/via-tinda-s-project.-imagenes-jordi-canosa.-estilismo-mar-gausachs-bano/450_1000.jpeg"
+            },
+            {
+                "id": "4",
+                "url": "https://static8.depositphotos.com/1363517/842/i/600/depositphotos_8422041-stock-photo-kitchen.jpg"
+            },
+            {
+                "id": "5",
+                "url": "https://www.vitahome.co/wp-content/uploads/2019/12/comedor-bonneti-blanco-p.jpg"
+            }
+        ],
+        "checkIn": "11:30 am",
+        "startDate": "11-07-2022",
+        "endDate": "18-07-2022"
+    }
+]

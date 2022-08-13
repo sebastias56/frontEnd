@@ -1,0 +1,60 @@
+/* Background --tertiary at 88% opacity converted to rgba */
+.styles_overlay-wrapper__O0Zm8 .styles_backdrop__2LNQS {
+    background-color: rgba(84, 87, 118, 0.88);
+    align-content: center;
+    padding: 3rem;
+}
+
+/* Modal */
+.styles_overlay-wrapper__O0Zm8 .styles_overlay-content__1qZR_ {
+    padding: 0 !important;
+    border-radius: 15px;
+    max-width: 70% !important;
+    background-color: var(--secondary) !important;
+    outline: none;
+}
+
+/* Close modal icon */
+.styles_overlay-wrapper__O0Zm8 .styles_overlay-content__1qZR_ .styles_overlay-close__3e1ke {
+    z-index: 99;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px;
+    padding: 4px;
+}
+
+div .styles_overlay-close__3e1ke > svg {
+    fill: var(--font-color);
+}
+
+.button-gallery {
+    background-color: var(--quaternary);
+    color: var(--font-color);
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    border: none;
+    border-radius: 7px;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    grid-column: 4/5;
+    grid-row: 3/5;
+    align-self: end;
+    justify-self: end;
+    margin: 0.5rem;
+}
+
+.button-gallery:hover {
+    background-color: var(--secondary);
+}
+
+/*---------  RESPONSIVE ---------*/
+/* widescreen version */
+@media screen and (min-width: 1400px) {
+    .styles_overlay-wrapper__O0Zm8 .styles_overlay-content__1qZR_ {
+        max-width: 60% !important;
+    }
+}
